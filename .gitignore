@@ -1,0 +1,20 @@
+# OS
+.DS_Store
+**/.DS_Store
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Env
+.env
+server/.env
+
+# HTTPS certs (локальные)
+server/certs/*.pem
+
+# Build (если где-то будет)
+dist/
+build/
